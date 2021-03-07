@@ -15,7 +15,7 @@
     Gulp and send to the /css folder which is then loaded on the page.
 */
 
-body{font-family: 'Nanum Gothic', Nanum Gothic;font-size:16px}
+body{font-family: 'Nanum Gothic', 'Nanum Myeongjo', Nanum Gothic;font-size:16px}
 body.active{overflow:hidden;z-index:-1}
 .no-js #experience-timeline>div{background:#fff;padding:10px;margin-bottom:10px;border:1px solid #dcd9d9}
 .no-js #experience-timeline>div h3{font-size:1.5em;font-weight:300;color: #2a2f3a;display:inline-block;margin:0}
@@ -86,7 +86,7 @@ pulsate{0%{transform:scale(1, 1)}50%{transform:scale(1.2, 1.2)}100%{transform:sc
 #education h2{color:#2a2f3a;margin-bottom:50px}.education-block{max-width:700px;margin:0 auto 30px auto;padding:15px;border:1px solid #dcd9d9;text-align:left}
 .education-block h3{font-weight:500;float:left;margin:0;color:#2a2f3a}
 .education-block span{color:#41464a;float:right}
-.education-block h4{color:#989fa3;clear:both;font-weight:500;margin:0 0 15px 0}
+.education-block h4{color:#6e777d;clear:both;font-weight:500;margin:0 0 15px 0}
 .education-block p,.education-block ul{margin:0;color:#41464a;font-size:0.9em}
 .education-block ul{padding:0 0 0 15px}
 
