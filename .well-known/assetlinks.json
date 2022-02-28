@@ -3,5 +3,5 @@
   "target" : { 
     "namespace": "android_app",
     "package_name": "com.andie.applink",
-    "sha256_cert_fingerprints": ["FE:C0:47:1E:D1:72:47:CF:80:5D:55:9D:18:96:D1:C1:4C:FB:91:94:9C:D3:E8:92:71:26:3D:E7:4D:FC:AD:5D"] }
+    "sha256_cert_fingerprints": ["95:AD:95:58:C9:16:64:1A:EE:34:0D:80:34:B2:7B:00:B2:4D:69:58:AB:C4:26:2F:D1:1D:BA:52:D7:D7:A5:AB"] }
 }]
