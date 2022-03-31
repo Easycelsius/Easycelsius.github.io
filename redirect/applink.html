@@ -12,17 +12,19 @@
       console.log("스크립트 실행");
       var redirect_url = function() {
         console.log("redirect_url 함수 실행");
-        setTimeout(function appNotInstalled(){
-          window.location.replace("https://easycelsius.github.io/test/applink.html")
-        }, 100);
+        window.location.replace("https://easycelsius.github.io/test/applink.html")
+//         setTimeout(function appNotInstalled(){
+//           window.location.replace("https://easycelsius.github.io/test/applink.html")
+//         }, 100);
       };
       
       // Mobile 접속시 리다이렉트 함수 실행, 아니면 관련 페이지 이동
       if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
-        window.onload = redirect_url;
+//         window.onload = redirect_url;
+        window.location.replace("https://coupang.com")
         console.log("redirect_url 함수 종료");
       } else {
-        window.location.replace("https://coupang.com")
+        window.location.replace("https://easycelsius.github.io")
         console.log("페이지 이동");
       }
     </script>
